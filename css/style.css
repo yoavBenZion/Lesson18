@@ -1,0 +1,49 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Asap+Condensed');
+
+/*General*/
+
+html { /*How to define rem*/
+  font-size: 100%;
+}
+
+body {
+  max-width: 720px;
+  margin: 0 auto;
+  font-family: 'Asap Condensed', sans-serif;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+}
+
+main {
+  margin: 0 5px;
+  font-size: 1rem;
+  background-color: #ffd;
+}
+
+.color1 {
+  background-color: lightblue;
+}
+
+.color2 {
+  background-image: linear-gradient(red, transparent);
+}
+
+.center {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 5px;
+  margin: 2px 4px;
+}
+
+ul,ol {
+  padding-left: 0;
+}
+
+
+img {
+  max-width: 100%;
+}
